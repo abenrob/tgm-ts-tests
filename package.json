@@ -1,0 +1,24 @@
+{
+  "name": "tgmtstest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rollup/plugin-typescript": "^3.0.0",
+    "@targomo/core": "^0.2.19",
+    "@targomo/leaflet": "0.0.9",
+    "@types/leaflet": "^1.5.8",
+    "rollup": "^1.31.1"
+  },
+  "devDependencies": {
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "typescript": "^3.7.5"
+  }
+}
