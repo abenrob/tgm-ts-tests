@@ -6,7 +6,6 @@ import { environment } from './environments/environment'
 
 // create targomo client
 const client = new TargomoClient('britishisles', environment.tgmKey);
-client.basemaps.basemapsLookup('')
 // define the basemap
 const tilesUrl = `https://api.maptiler.com/maps/positron/{z}/{x}/{y}@2x.png?key=${environment.maptilerKey}`;
 const tileLayer = L.tileLayer(tilesUrl, {
