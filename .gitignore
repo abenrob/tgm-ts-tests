@@ -4,6 +4,9 @@
 !.vscode/extensions.json
 .history/*
 
+node_modules
+node_modules/*
+
 # misc
 /.sass-cache
 /connect.lock
